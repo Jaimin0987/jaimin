@@ -1,56 +1,93 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+BE+VLG:wght@100..400&display=swap');
 
-*{
-    padding: 0;
-    margin: 0;
+* {
+    padding: 0%;
+    margin: 0%;
 }
-.item{
+
+.item {
     display: inline-block;
     padding: 10px;
     margin-left: 30px;
 }
-a,li{
+
+a,
+li {
     text-decoration: none;
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     padding: 10px;
     font-size: 16px;
-    transition: background-color .5s ease;
-    color:black;
-    border-radius:50px;
+    color: black;
 }
-header{
+
+header {
     display: flex;
-    justify-content:end;
+    justify-content: end;
     padding: 20px;
     background-color: #009FBD;
 }
-.nav .item:hover{
-    background-color:#F9E2AF;
+
+.nav li a:hover {
+    background-color: #F9E2AF;
     border: none;
+    border-radius: 50px;
     cursor: pointer;
 }
 
-#col{   
+#pic {
+    height: 250px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.wd {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    font-family: Helvetica;
+}
+
+#col {
     background-color: aliceblue;
     border-radius: 50px;
     margin-left: 30px;
-    transition: box-shadow .5s ease;
 }
-#col:hover{
-    box-shadow: 5px 5px 4px black;
+.block{
+    height: 740px;
+    width:auto;
+    background-color: #F9E2AF;
+    margin: 30px;
+    padding: 30px;
 }
-
-
-img{
+.blk{
+    display:flex;
+    justify-content:right;
+    align-items: center;
+}
+.blok{
+    display:flex;
+    justify-content:left;
+    align-items: center;
+}
+.cod{
+    font-size: x-large;
+}
+.pic-2{
     height: 200px;
-    width: 100vw;
-
+    width: 50%;
 }
-.wd{
+.butn{
     display: flex;
-    justify-content:center;
+    justify-content: center;
+}
+.btn{
+    border: none;
+    border-radius: 40px;
     font-size:x-large;
-    font-family: "Playwrite BE VLG", cursive;
-    padding: 20px 0px;
+    background-color: white;
+    margin: 0.5rem;
+}
+.btn:hover{
+    background-color: antiquewhite;
 }
