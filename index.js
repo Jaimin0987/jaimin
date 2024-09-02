@@ -5,7 +5,9 @@ import pg from "pg"
 import dotenv from "dotenv";
 import bodyParser from "body-parser";
 
-dotenv.config();
+dotenv.config(); 
+
+
 
 const { Pool } = pg;
 
